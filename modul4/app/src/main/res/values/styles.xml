@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TeksJudul" parent="">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TeksSubjudul" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TeksCaption" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TeksIsi" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>

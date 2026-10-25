@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TeknisiGo</string>
+
+    <!-- MainActivity -->
+    <string name="judul_main">TeknisiGo</string>
+    <string name="subjudul_main">Galeri Foto Bukti Instalasi</string>
+    <string name="caption_foto">Foto Bukti %1$d</string>
+    <string name="toast_foto">Foto Bukti %1$d dipilih</string>
+
+    <!-- Menu -->
+    <string name="menu_second">Laporan Teknisi</string>
+    <string name="menu_telepon">Hubungi NOC</string>
+    <string name="menu_tentang">Tentang</string>
+    <string name="toast_tentang">TeknisiGo - Logbook digital teknisi ISP / RT-RW Net</string>
+
+    <!-- SecondActivity -->
+    <string name="judul_second">Laporan Teknisi</string>
+    <string name="isi_second">Halaman ini akan berisi form input pekerjaan (nama pelanggan, SN modem ONU, panjang kabel, dan foto bukti).</string>
+    <string name="tombol_kembali">Kembali</string>
+</resources>

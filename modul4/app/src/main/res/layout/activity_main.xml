@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/TeksJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_main" />
+
+        <TextView
+            style="@style/TeksSubjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/subjudul_main" />
+    </LinearLayout>
+
+    <!-- GridView diambil dari gridview.xml -->
+    <include
+        layout="@layout/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
